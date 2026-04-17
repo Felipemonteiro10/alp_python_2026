@@ -1,5 +1,16 @@
-nota1 = float(input("primeira nota:"))
-nota2 = float(input("segunda nota:"))
-nota3 = float(input("terceira nota:"))
+nota1 = float(input("Digite a primeira nota:"))
+nota2 = float(input("Digite a segunda nota:"))
+nota3 = float(input("Digite a terceira nota:"))
+
 media =(nota1 + nota2 + nota3)/3
-print("a media é:" , {media})
+
+print(f"a media é: {media:.2f}")
+
+if media >=7:
+    print("aprovado")
+
+elif media >=4:
+    print("prova final")
+
+else:
+    print("reprovado")
