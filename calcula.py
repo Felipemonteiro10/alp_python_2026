@@ -22,8 +22,11 @@ else:
         print(f"Resultado: {mul}")
 
     elif operaçao == 4:
-        div= n1 / n2
-        print(f"Resultado: {div}")
+        if n2 != 0:
+            div= n1 / n2
+            print(f"Resultado: {div}")
+        else:
+            print("pode n man")
 
     else:
         print(f"ebaaaaaaaa")
