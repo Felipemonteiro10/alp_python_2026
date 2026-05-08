@@ -2,7 +2,7 @@ print("As opções são: 1. Média ponderada." \
 "2. Quadrado da soma dos 2 números" \
 ".3. Cubo do menor número")
 
-opçao = int(input("escolhha entre a opções de 1 a 3: "))
+opçao = int(input("escolha entre a opções de 1 a 3: "))
 
 if opçao <1 or opçao >3:
     print("opção não exite")
@@ -16,7 +16,7 @@ else:
     if n2 <= 0:
         print("não pode")
 
-    if opçao == 1:
+    elif opçao == 1:
         print(f"a média ponderada entre os numeros é: {(n1*2 + n2*3)/(2+3)} ")
     elif opçao == 2:
         print(f"o quadrado da soma é: {(n1 + n2)**2}")
