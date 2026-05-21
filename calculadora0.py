@@ -1,4 +1,4 @@
-print("*** Calculadora de números reais ***")
+print(" Calculadora de números reais ")
 print("0. sair")
 print("1. soma")
 print("2. subtração")
