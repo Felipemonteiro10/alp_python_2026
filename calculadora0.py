@@ -1,14 +1,17 @@
-print(" Calculadora de números reais ")
+print(" ***Calculadora de números reais*** ")
 print("0. sair")
 print("1. soma")
 print("2. subtração")
 print("3. multiplicação")
 print("4. divisão")
-opcao = int(input("Escolha a operação desejada:"))
-while opcao != 0:
+while True:
+    opcao = int(input("Escolha a operação desejada:"))
     if opcao == 0:
-        print("saindo da calculadora")
+        print("saindo da calculadora...")
         break
+    elif opcao <0 or opcao >4:
+        print("opção invalida")
+        continue
     num1 = float(input("Digite o número 1:"))
     num2 = float(input("Digite o número 2:"))
     if opcao == 1:
@@ -25,3 +28,4 @@ while opcao != 0:
         print("O resultado da divisão é:", resultado4)
     else:   
         print("Opção não existe")
+    opcao = int(input("Escolha a operação desejada:"))
