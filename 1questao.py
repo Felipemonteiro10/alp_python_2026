@@ -1,4 +1,3 @@
-
 senha = int(input("digite a senha:"))
 
 while senha!= 12345:
