@@ -1,6 +1,6 @@
 print("bem vindo eu Felipe missias!")
 nome = 'fernando'
-idade = 67
+eu = 67
 print(f"bem vindo, {nome}")
 print(f"sua idade: {idade}")
 
@@ -19,3 +19,4 @@ vel = d/t
 print(f"velocidade média (m/s) = ", vel)
 
 print(f"menu: \n1 comidas \n2 bebidas \n3 sim \n4 chocolate")
+input("gosto")
