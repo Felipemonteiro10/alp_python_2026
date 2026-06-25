@@ -2,6 +2,6 @@ senha = int(input("digite a senha:"))
 
 while senha!= 12345:
     print("acesso negado")
-    senha = input("digite novamente:")
+    senha = int(input("digite novamente:"))
     if senha == 12345: 
         print("deu certo")
